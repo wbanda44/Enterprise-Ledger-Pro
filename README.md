@@ -1,10 +1,18 @@
 # Enterprise-Ledger-Pro
 A lightweight, privacy-first, single-file accounting suite for small businesses and freelancers.
-# 📊 Enterprise Ledger Pro v2.1A lightweight, privacy-first, single-file accounting suite for small businesses and freelancers. Built with vanilla JavaScript and Chart.js, this tool provides professional-grade double-entry bookkeeping without the need for expensive subscriptions or cloud-based data storage.
-# ✨ Key FeaturesDouble-Entry Logic: Ensures balanced books across Assets, Liabilities, Equity, Revenue, and Expenses.Visual Analytics: Real-time Monthly Revenue vs. Expense trends using Chart.js.Financial Controls: - Annual Revenue Goal tracking with progress visualization.Monthly Expense Budgeting with "at-risk" color coding.Estimated Tax Liability calculator built into the P&L report.Accrual Support: Includes accounts for Equipment to handle long-term asset depreciation.Data Portability: Export your entire ledger to CSV for tax filing or advanced analysis in Excel/Sheets.Privacy: 100% Client-side. No data is ever sent to a server. Data persists in your browser's localStorage.
-# 🚀 How to RunSince this is a self-contained HTML/JS application, there is no installation required.Clone or Download the repository.Open index.html in any modern web browser.Optional: To access this on your mobile device, host it via GitHub Pages (Settings > Pages > Deploy from branch).
-# 📖 Accounting "Cheat Sheet"If you are new to double-entry bookkeeping, use this guide for your entries:Business EventDebit (Dr)Credit (Cr)Sold a Service/ProductCashRevenuePaid a Monthly BillExpensesCashBought Office SuppliesSuppliesCashBought a Laptop (Asset)EquipmentCashMonthly DepreciationExpensesEquipmentOwner Salary/DrawOwner EquityCashInitial InvestmentCashOwner Equity
-# 🛠 Technical DetailsFrontend: HTML5, CSS3 (with CSS Variables for Dark Mode).Charts: Chart.js via CDN.Storage: window.localStorage (Persistent per browser).Export: Blob-based CSV generation.
+# 📊 Enterprise Ledger Pro v2.1
+A lightweight, privacy-first, single-file accounting suite for small businesses and freelancers. Built with vanilla JavaScript and Chart.js, this tool provides professional-grade double-entry bookkeeping without the need for expensive subscriptions or cloud-based data storage.
+# ✨ Key FeaturesDouble-Entry Logic: 
+Ensures balanced books across Assets, Liabilities, Equity, Revenue, and Expenses.Visual Analytics: Real-time Monthly Revenue vs. Expense trends using Chart.js.Financial Controls: - Annual Revenue Goal tracking with progress visualization.Monthly Expense Budgeting with "at-risk" color coding.Estimated Tax Liability calculator built into the P&L report.Accrual Support: Includes accounts for Equipment to handle long-term asset depreciation.Data Portability: Export your entire ledger to CSV for tax filing or advanced analysis in Excel/Sheets.Privacy: 100% Client-side. No data is ever sent to a server. Data persists in your browser's localStorage.
+# 🚀 How to Run
+Since this is a self-contained HTML/JS application, there is no installation required.Clone or Download the repository.Open index.html in any modern web browser.Optional: To access this on your mobile device, host it via GitHub Pages (Settings > Pages > Deploy from branch).
+# 📖 Accounting "Cheat Sheet"
+If you are new to double-entry bookkeeping, use this guide for your entries:Business EventDebit (Dr)Credit (Cr)Sold a Service/ProductCashRevenuePaid a Monthly BillExpensesCashBought Office SuppliesSuppliesCashBought a Laptop (Asset)EquipmentCashMonthly DepreciationExpensesEquipmentOwner Salary/DrawOwner EquityCashInitial InvestmentCashOwner Equity
+# 🛠 Technical DetailsFrontend:
+HTML5, CSS3 (with CSS Variables for Dark Mode).
+Charts: Chart.js via CDN.
+Storage: window.localStorage (Persistent per browser).
+Export: Blob-based CSV generation.
 # 📂 Project StructurePlaintext├── index.html   # The "Supreme Master File" (Code, Logic, & UI)
 ├── README.md    # You are here
 └── .gitignore   # Standard git ignore file
